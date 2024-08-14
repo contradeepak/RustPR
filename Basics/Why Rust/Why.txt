@@ -1,0 +1,21 @@
+This is kind of a vague and confusing question. Rust is a proramming language, Node.js is not a programming language, it’s a Javascript run time. While you technically could build a webapp using nodejs, you’d kind of be going back in time to force a new technology to do what old technologies did in the past.
+
+Generally speaking you don’t use nodejs in a webapp however you might use it to run tooling while building a webapp, like linting, package management, a development server etc..
+
+In Rust you can actually write client side code that can then be compiled down to Webassembly.
+
+It would probably be better to ask the question, “Should I use Rust or Javascript to write a webapp?”
+
+In which there are a billion factors that could come into play. Are you a startup? Do you plan on growing your team while having little capitol? Better to use javascript cause there are more developers out there for cheaper.
+
+Do you have explicit requirements for safety? Go for Rust. If not go for javascript, don’t bog yourself down with a technology aimed at a requirement you don’t have.
+
+Maybe you don’t have experience with either technology, but you do have experience with C++, maybe go for Rust.
+
+Do you need to rely on a large amount of 3rd party libraries and online knowledge bases to help you architect and build your application? Javascript is going to have more of that.
+
+Do you want a language that was designed for webapp/clientside apps and thus has tooling built for those types of use cases or do you want to use a language designed for the backend that’s been adapted to make webapps?
+
+Do you have any explicit memory needs?
+
+Based on how confusing the question is Im assuming you might be new to software development and would suggest using javascript because it has more tooling and information out there to help you pick up different concepts used in building webapps.

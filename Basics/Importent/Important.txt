@@ -1,0 +1,17 @@
+mkdir rust-project
+cd rust-project
+cargo init
+
+cargo.toml => package.json
+main.rs ==> index.js
+
+Cargo.toml file, which is similar to package.json file
+
+
+Extensions - CodeLLDB, Rust Analyzer, 
+
+
+cargo run
+
+cargo build --release
+
