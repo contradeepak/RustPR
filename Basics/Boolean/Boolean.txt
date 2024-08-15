@@ -1,0 +1,35 @@
+Bools can have two states, true or false:
+
+fn main() {
+   let is_male = false;
+   let is_above_18 = true;
+
+   if is_male {
+   println!("you are a male");
+
+   } else {
+    println!("You are not a male");
+   }
+   if is_male && is_above_18 {
+    println!("You are a legal male")
+   }
+}
+
+
+Eg : 2
+
+
+fn main() {
+   let is_male = true;
+   let is_above_18 = true;
+
+   if is_male {
+   println!("you are a male");
+
+   } else {
+    println!("You are not a male");
+   }
+   if is_male && is_above_18 {
+    println!("You are a legal male")
+   }
+}

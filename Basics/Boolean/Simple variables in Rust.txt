@@ -1,0 +1,41 @@
+Simple Variables in rust
+Before we write any more code, let’s quickly discuss variables so we can understand some rust concepts before we get into the meat of the code
+You can define variables using the let keyword (very similar to JS)
+You can assign the type of the variable, or it can be inferred as well.
+1. Numbers
+fn main() {
+    let x: i32 = 1;
+    println!("{}", x);
+}
+Copy
+💡
+Ignore how the printing is happening right now, we’ll come to it later
+Equivalent typescript code
+What happens if we overflow?
+2. Booleans
+Bools can have two states, true or false
+fn main() {
+    let is_male = false;
+    let is_above_18 = true;
+    
+    if is_male {
+        println!("You are a male");
+
+    } else {
+        println!("You are not a male");
+    }
+
+    if is_male && is_above_18 {
+        print!("You are a legal male");
+    }
+}
+Copy
+Equivalent typescript code
+3. Strings
+There are two ways of doing strings in rust. We’ll be focussing on the easier one
+fn main() {
+    let greeting = String::from("hello world");
+    println!("{}", greeting);
+
+    // print!("{}", greeting.chars().nth(1000))
+}

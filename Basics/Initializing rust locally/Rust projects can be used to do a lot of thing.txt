@@ -4,3 +4,5 @@ Rust projects can be used to do a lot of things
 2. Create CLIs (command line interfaces)
 3. Create browsers
 4. Great Code Editors
+
+Note: You can not change the value of variable in Rust.
