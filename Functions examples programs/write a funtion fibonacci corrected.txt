@@ -1,5 +1,7 @@
+
+   
 // Write a function fib that finds the fibonacci of a number it takes as input
-// 0 1 1 2 3 5 8 13
+// 0 1 1 2 3 5 8 13 21
 // Solution:
 fn main()
 {
@@ -18,7 +20,7 @@ fn fib(num: u32) -> u32 {
     }
    
 
-   for _ in 0..(num -2) {
+   for _ in 0..(num - 1) {
     let temp = second;
     second = second + first;
     first = temp;
